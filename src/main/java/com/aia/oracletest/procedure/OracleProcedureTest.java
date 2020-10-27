@@ -14,6 +14,10 @@ import java.sql.DriverManager;
  */
 public class OracleProcedureTest {
 
+    public static void main(String[] args) {
+        System.out.println("===");
+    }
+
     @Test
     public void test1() throws Exception{
         Class.forName("oracle.jdbc.driver.OracleDriver");
